@@ -1,0 +1,58 @@
+
+.feedback{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: auto 2rem; */
+}
+#frm-layout{
+  margin: 0 2rem;
+  padding: 1rem 3rem;
+  width:450px;
+  height: 450px;
+  
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: auto 3rem;
+}
+.col-1{    
+    color: white;
+    width: 50%;
+}
+ .col-2{    
+    margin: 8px 0;
+    width: 50%;
+}
+#frm-layout p{
+  padding: 10px 0;
+  color: white;
+  text-align: center;
+}
+.col-2 input{
+    border-radius: 6px;
+    padding: 8px 62px 8px 10px;
+}
+.col-2 select{
+  border-radius: 6px;
+    padding: 8px 0;
+}
+.col-2 textarea{
+    height:80px;
+    width:236px;
+    border-radius: 6px;
+    padding: 10px;
+}
+input[type=submit] {
+    margin: 0.5rem 0;
+    background-color:rgb(245, 48, 48);
+    color: white;
+    padding: 6px 40px;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: none;
+ } 

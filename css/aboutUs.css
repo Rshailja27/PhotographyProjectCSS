@@ -1,0 +1,21 @@
+*{
+      /* box-sizing: border-box; */
+      color: white;
+ }
+
+.abt-us{
+  padding: 14px;
+}
+
+.abt-us>div{
+  padding: 6px 20px;
+}
+.abt-us p{
+  font-size: 13px;
+}
+.abt-us h4{
+  color: rgb(245, 48, 48);
+}
+.abt3 strong{
+ color: rgb(245, 48, 48);
+}

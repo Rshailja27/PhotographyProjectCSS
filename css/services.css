@@ -1,0 +1,32 @@
+* {
+  /* box-sizing: border-box; */
+  color: white;
+}
+.our-services{
+  /* background-color: black; */
+  padding: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+.our-services p{
+ 
+  font-size: 13px;
+}
+.our-services ul{
+  margin-left: 2rem;
+  font-size: 13px;
+}
+.our-services h3, .our-services h4{
+  color: rgb(245, 48, 48);
+}
+.ev-phg, .part-13{
+  margin-top: 20px;
+}
+.ev-phg a, .part-13 a{
+ 
+ text-decoration: none;
+ padding: 12px;
+ border: 0 solid rgb(78, 78, 78);
+ border-radius: 25px;
+ background-color:  rgb(245, 48, 48);
+}

@@ -1,0 +1,72 @@
+/* *{box-sizing: border-box;} */
+.container{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+    
+}
+.images-container{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.column{
+    height:170px;
+    width:260px;
+    margin-top: 20px;
+    border: 1px solid rgb(81, 97, 114);
+}
+ .images-container i{
+    color: white;
+    float: right;
+    padding: 10px;
+}
+.col-1{
+    background: url(../images/photographs1.jpg) no-repeat;
+    background-size: cover;
+}
+
+.col-2{
+    background: url(../images/photographs2.jpg) no-repeat;
+    background-size: cover;
+}
+.col-3{
+    background: url(../images/photography3.webp) no-repeat;
+    background-size: cover;
+}
+.col-4{
+    background: url(../images/photographs4.jpg) no-repeat;
+    background-size: cover;
+}
+.col-5{
+    background: url(../images/photographs5.jpg) no-repeat;
+    background-size: cover;
+}
+.col-6{
+    background: url(../images/photographs6.jpg) no-repeat;
+    background-size: cover;
+}
+.col-7{
+    background: url(../images/photographs7.jpg) no-repeat;
+    background-size: cover;
+}
+.col-8{
+    background: url(../images/photographs8.jpg) no-repeat;
+    background-size: cover;
+}
+.pagination{
+    display: inline-block;
+    margin: 22px 0;
+    padding-left: 26px;
+} 
+.pagination a{
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.pagination a.active, .pagination a:hover{
+    background-color: rgb(245, 48, 48);
+}

@@ -1,0 +1,30 @@
+*{
+    color: white;
+    /* box-sizing: border-box; */
+}
+.cont-page > div{
+  padding: 10px 0 0 20px;
+}
+.cont-heading p{
+ padding: 5px;
+ font-size: 14px;
+}
+.cont-page h4{
+  color: rgb(245, 67, 67);
+}
+
+.cont-page pre{
+  font-size: 13px;
+}
+.cont-page i{
+  margin: 0 4px;
+}
+.cont-detl-4 a{
+text-decoration: none;
+}
+.cont-detl-5 a{
+    padding: 0 4px;
+    font-size: 12;
+    color: blue;
+  
+  }
